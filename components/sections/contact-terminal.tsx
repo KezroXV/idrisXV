@@ -1,23 +1,26 @@
 "use client";
 
 import { Mail, Github, Linkedin, MapPin, Send } from "lucide-react";
+import {useTranslations} from 'next-intl';
 
 export function ContactTerminal() {
+  const t = useTranslations('contact');
+
   return (
     <section id="contact" className="py-20 md:py-32 px-6 md:px-12 border-t border-foreground">
       <div className="max-w-6xl mx-auto">
         {/* Section title */}
         <div className="mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">Contact</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">{t('title')}</h2>
           <p className="text-muted-foreground text-lg">
-            Travaillons ensemble sur votre prochain projet
+            {t('subtitle')}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact info */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold mb-6">Informations</h3>
+            <h3 className="text-xl font-bold mb-6">{t('info.title')}</h3>
 
             {/* Email */}
             <a
@@ -81,47 +84,47 @@ export function ContactTerminal() {
 
           {/* Contact form */}
           <div>
-            <h3 className="text-xl font-bold mb-6">Envoyez un message</h3>
+            <h3 className="text-xl font-bold mb-6">{t('form.title')}</h3>
             <form className="space-y-6">
               {/* Name */}
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
-                  Nom
+                  {t('form.name')}
                 </label>
                 <input
                   type="text"
                   id="name"
                   name="name"
                   className="w-full px-4 py-3 border border-foreground bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-foreground"
-                  placeholder="Votre nom"
+                  placeholder={t('form.namePlaceholder')}
                 />
               </div>
 
               {/* Email */}
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-2">
-                  Email
+                  {t('form.email')}
                 </label>
                 <input
                   type="email"
                   id="email"
                   name="email"
                   className="w-full px-4 py-3 border border-foreground bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-foreground"
-                  placeholder="votre.email@example.com"
+                  placeholder={t('form.emailPlaceholder')}
                 />
               </div>
 
               {/* Message */}
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
-                  Message
+                  {t('form.message')}
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={6}
                   className="w-full px-4 py-3 border border-foreground bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-foreground resize-none"
-                  placeholder="Votre message..."
+                  placeholder={t('form.messagePlaceholder')}
                 />
               </div>
 
@@ -131,7 +134,7 @@ export function ContactTerminal() {
                 className="w-full px-6 py-3 bg-foreground text-background hover:opacity-80 transition-opacity font-medium flex items-center justify-center gap-2"
               >
                 <Send className="h-4 w-4" />
-                Envoyer
+                {t('form.submit')}
               </button>
             </form>
           </div>

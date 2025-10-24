@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "name": "Idris",
+    "role": "Développeur Full-Stack",
+    "description": "Je suis un ingénieur full-stack de 21y/o, diplômé en informatique. Je suis spécialisé dans la création d'applications web SaaS modernes et de solutions personnalisées sur Shopify. Gérant la performance, scalabilité et l'expérience utilisateur, j'aide les startups et entrepreneurs à transformer leurs idées en produits digitaux fiables.",
+    "cta": {
+      "projects": "Voir les Projets",
+      "contact": "Me Contacter"
+    }
+  },
+  "skills": {
+    "title": "Stack Technique",
+    "subtitle": "Technologies et outils que j'utilise au quotidien"
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Une sélection de mes travaux récents",
+    "cta": "Voir les détails",
+    "viewMore": "Voir plus sur GitHub",
+    "modal": {
+      "about": "À propos",
+      "techStack": "Stack Technique",
+      "keyFeatures": "Fonctionnalités Clés",
+      "viewGithub": "Voir sur GitHub",
+      "viewDemo": "Voir la Démo"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Travaillons ensemble sur votre prochain projet",
+    "info": {
+      "title": "Informations",
+      "email": "Email",
+      "location": "Localisation",
+      "availability": "Disponibilité"
+    },
+    "form": {
+      "title": "Envoyez un message",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "submit": "Envoyer"
+    }
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "builtWith": "Créé avec Next.js & TypeScript"
+  },
+  "projectsData": {
+    "1": {
+      "title": "CrossGuild",
+      "category": "Plateforme E-commerce",
+      "description": "Une plateforme e-commerce moderne avec panier et paiement sécurisé",
+      "longDescription": "Application e-commerce complète avec gestion des produits, panier d'achat, système de paiement intégré et dashboard administrateur.",
+      "features": [
+        "Interface utilisateur moderne et responsive",
+        "Système de paiement sécurisé avec Stripe",
+        "Gestion complète des produits et du stock",
+        "Dashboard administrateur avancé"
+      ]
+    },
+    "2": {
+      "title": "DataFlow Analytics",
+      "category": "Dashboard Analytics",
+      "description": "Dashboard interactif avec visualisation de données en temps réel",
+      "longDescription": "Interface de visualisation de données avec graphiques interactifs, filtres avancés et export de rapports.",
+      "features": [
+        "Graphiques interactifs en temps réel",
+        "Filtres avancés et personnalisables",
+        "Export de rapports en PDF et Excel",
+        "Tableaux de bord personnalisables"
+      ]
+    },
+    "3": {
+      "title": "TaskMaster Pro",
+      "category": "Application Mobile",
+      "description": "App mobile cross-platform pour la gestion de tâches",
+      "longDescription": "Application de productivité avec synchronisation cloud, notifications push et mode hors ligne.",
+      "features": [
+        "Synchronisation cloud en temps réel",
+        "Notifications push intelligentes",
+        "Mode hors ligne complet",
+        "Interface intuitive et performante"
+      ]
+    },
+    "4": {
+      "title": "SecureAPI",
+      "category": "API REST",
+      "description": "API RESTful robuste avec authentification JWT",
+      "longDescription": "Backend complet avec authentification, autorisation, validation des données et documentation Swagger.",
+      "features": [
+        "Authentification JWT sécurisée",
+        "Documentation Swagger complète",
+        "Validation des données robuste",
+        "Architecture scalable et maintenable"
+      ]
+    }
+  }
+}

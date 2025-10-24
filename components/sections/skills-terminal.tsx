@@ -2,8 +2,10 @@
 
 import { skills } from "@/lib/data/skills";
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 
 export function SkillsTerminal() {
+  const t = useTranslations('skills');
   const allSkills = [
     ...skills.frontend,
     ...skills.backend,
@@ -18,9 +20,9 @@ export function SkillsTerminal() {
       <div className="max-w-5xl mx-auto">
         {/* Section title */}
         <div className="mb-8">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">Stack Technique</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">{t('title')}</h2>
           <p className="text-muted-foreground text-lg">
-            Technologies et outils que j'utilise au quotidien
+            {t('subtitle')}
           </p>
         </div>
 

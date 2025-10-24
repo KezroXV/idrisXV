@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Idris",
+    "role": "Full-Stack Developer",
+    "description": "I'm a 21y/o full-stack engineer and computer science graduate I specialize in building modern SaaS web applications and custom Shopify solutions. With a strong focus on performance, scalability, and user experience, I help startups and entrepreneurs turn their ideas into robust digital products.",
+    "cta": {
+      "projects": "View Projects",
+      "contact": "Get in Touch"
+    }
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "subtitle": "Technologies and tools I use on a daily basis"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of my recent work",
+    "cta": "View Details",
+    "viewMore": "View more on GitHub",
+    "modal": {
+      "about": "About",
+      "techStack": "Tech Stack",
+      "keyFeatures": "Key Features",
+      "viewGithub": "View on GitHub",
+      "viewDemo": "View Demo"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a project in mind? Let's talk about it.",
+    "info": {
+      "title": "Information",
+      "email": "Email",
+      "location": "Location",
+      "availability": "Availability"
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with Next.js & TypeScript"
+  },
+  "projectsData": {
+    "1": {
+      "title": "CrossGuild",
+      "category": "E-commerce Platform",
+      "description": "Modern e-commerce platform with cart and secure payment",
+      "longDescription": "Complete e-commerce application with product management, shopping cart, integrated payment system and admin dashboard.",
+      "features": [
+        "Modern and responsive user interface",
+        "Secure payment system with Stripe",
+        "Complete product and inventory management",
+        "Advanced admin dashboard"
+      ]
+    },
+    "2": {
+      "title": "DataFlow Analytics",
+      "category": "Analytics Dashboard",
+      "description": "Interactive dashboard with real-time data visualization",
+      "longDescription": "Data visualization interface with interactive charts, advanced filters and report export.",
+      "features": [
+        "Real-time interactive charts",
+        "Advanced and customizable filters",
+        "Report export in PDF and Excel",
+        "Customizable dashboards"
+      ]
+    },
+    "3": {
+      "title": "TaskMaster Pro",
+      "category": "Mobile Application",
+      "description": "Cross-platform mobile app for task management",
+      "longDescription": "Productivity application with cloud synchronization, push notifications and offline mode.",
+      "features": [
+        "Real-time cloud synchronization",
+        "Smart push notifications",
+        "Complete offline mode",
+        "Intuitive and performant interface"
+      ]
+    },
+    "4": {
+      "title": "SecureAPI",
+      "category": "REST API",
+      "description": "Robust RESTful API with JWT authentication",
+      "longDescription": "Complete backend with authentication, authorization, data validation and Swagger documentation.",
+      "features": [
+        "Secure JWT authentication",
+        "Complete Swagger documentation",
+        "Robust data validation",
+        "Scalable and maintainable architecture"
+      ]
+    }
+  }
+}

@@ -4,8 +4,11 @@ import { useState } from "react";
 import { projects, type Project } from "@/lib/data/projects";
 import { ExternalLink, Github } from "lucide-react";
 import { ProjectModal } from "@/components/project-modal";
+import {useTranslations} from 'next-intl';
 
 export function ProjectsTerminal() {
+  const t = useTranslations('projects');
+  const tData = useTranslations('projectsData');
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -20,9 +23,9 @@ export function ProjectsTerminal() {
         <div className="max-w-6xl mx-auto">
           {/* Section title */}
           <div className="mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">Projets</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">{t('title')}</h2>
             <p className="text-muted-foreground text-lg">
-              Une sélection de mes travaux récents
+              {t('subtitle')}
             </p>
           </div>
 
@@ -43,7 +46,7 @@ export function ProjectsTerminal() {
                   {/* Overlay on hover */}
                   <div className="absolute inset-0 bg-foreground/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <span className="text-background text-sm font-bold">
-                      CLIQUER POUR DÉTAILS →
+                      {t('cta')} →
                     </span>
                   </div>
                 </div>
@@ -53,16 +56,16 @@ export function ProjectsTerminal() {
                   {/* Title & Category */}
                   <div className="mb-4">
                     <h3 className="text-xl font-bold mb-1">
-                      {project.title}
+                      {tData(`${project.id}.title`)}
                     </h3>
                     <p className="text-xs text-muted-foreground uppercase tracking-wide">
-                      {project.category}
+                      {tData(`${project.id}.category`)}
                     </p>
                   </div>
 
                   {/* Description */}
                   <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
-                    {project.description}
+                    {tData(`${project.id}.description`)}
                   </p>
 
                   {/* Tags */}
@@ -85,7 +88,7 @@ export function ProjectsTerminal() {
                   {/* Actions */}
                   <div className="flex items-center justify-between pt-4 border-t border-foreground">
                     <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors">
-                      Voir les détails →
+                      {t('cta')} →
                     </span>
                     <div className="flex gap-2">
                       {project.github && (
@@ -128,7 +131,7 @@ export function ProjectsTerminal() {
               className="inline-flex items-center gap-2 px-6 py-3 border border-foreground hover:bg-foreground hover:text-background transition-colors"
             >
               <Github className="h-5 w-5" />
-              Voir plus sur GitHub
+              {t('viewMore')}
             </a>
           </div>
         </div>

@@ -1,8 +1,11 @@
 "use client";
 
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import {useTranslations} from 'next-intl';
 
 export function HeroTerminal() {
+  const t = useTranslations('hero');
+
   const scrollToProjects = () => {
     const projectsSection = document.querySelector("#projects");
     projectsSection?.scrollIntoView({ behavior: "smooth" });
@@ -13,20 +16,19 @@ export function HeroTerminal() {
       <div className="w-full max-w-4xl space-y-12">
         {/* Greeting */}
         <div className="space-y-2">
-          <p className="text-sm text-muted-foreground">Bonjour, je suis</p>
+          <p className="text-sm text-muted-foreground">{t('greeting')}</p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            VOTRE NOM
+            {t('name')}
           </h1>
         </div>
 
         {/* Role */}
         <div className="space-y-4">
           <h2 className="text-2xl md:text-4xl font-medium">
-            Développeur Full Stack
+            {t('role')}
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Je crée des applications web modernes et performantes avec React, Next.js et TypeScript.
-            Passionné par le code propre et l'expérience utilisateur.
+            {t('description')}
           </p>
         </div>
 
@@ -48,13 +50,13 @@ export function HeroTerminal() {
             onClick={scrollToProjects}
             className="px-6 py-3 bg-foreground text-background hover:opacity-80 transition-opacity font-medium"
           >
-            Voir mes projets
+            {t('cta.projects')}
           </button>
           <a
             href="#contact"
             className="px-6 py-3 border border-foreground hover:bg-foreground hover:text-background transition-colors font-medium"
           >
-            Me contacter
+            {t('cta.contact')}
           </a>
         </div>
 
