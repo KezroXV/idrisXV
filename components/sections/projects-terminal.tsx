@@ -4,11 +4,12 @@ import { useState } from "react";
 import { projects, type Project } from "@/lib/data/projects";
 import { ExternalLink, Github } from "lucide-react";
 import { ProjectModal } from "@/components/project-modal";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export function ProjectsTerminal() {
-  const t = useTranslations('projects');
-  const tData = useTranslations('projectsData');
+  const t = useTranslations("projects");
+  const tData = useTranslations("projectsData");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -23,10 +24,10 @@ export function ProjectsTerminal() {
         <div className="max-w-6xl mx-auto">
           {/* Section title */}
           <div className="mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">{t('title')}</h2>
-            <p className="text-muted-foreground text-lg">
-              {t('subtitle')}
-            </p>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+              {t("title")}
+            </h2>
+            <p className="text-muted-foreground text-lg">{t("subtitle")}</p>
           </div>
 
           {/* Projects grid */}
@@ -39,14 +40,16 @@ export function ProjectsTerminal() {
               >
                 {/* Project image */}
                 <div className="relative h-48 bg-muted border-b-2 border-foreground overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-foreground/5 to-foreground/20" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-6xl opacity-20">📁</div>
-                  </div>
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover object-top"
+                  />
                   {/* Overlay on hover */}
                   <div className="absolute inset-0 bg-foreground/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <span className="text-background text-sm font-bold">
-                      {t('cta')} →
+                      {t("cta")} →
                     </span>
                   </div>
                 </div>
@@ -64,7 +67,7 @@ export function ProjectsTerminal() {
                   </div>
 
                   {/* Description */}
-                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
+                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed min-h-[2.5rem]">
                     {tData(`${project.id}.description`)}
                   </p>
 
@@ -88,7 +91,7 @@ export function ProjectsTerminal() {
                   {/* Actions */}
                   <div className="flex items-center justify-between pt-4 border-t border-foreground">
                     <span className="text-xs text-muted-foreground group-hover:text-foreground transition-colors">
-                      {t('cta')} →
+                      {t("cta")} →
                     </span>
                     <div className="flex gap-2">
                       {project.github && (
@@ -125,13 +128,13 @@ export function ProjectsTerminal() {
           {/* View more */}
           <div className="mt-12 text-center">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/KezroXV"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-foreground hover:bg-foreground hover:text-background transition-colors"
             >
               <Github className="h-5 w-5" />
-              {t('viewMore')}
+              {t("viewMore")}
             </a>
           </div>
         </div>

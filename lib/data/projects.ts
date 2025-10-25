@@ -20,10 +20,10 @@ export const projects: Project[] = [
       "Une plateforme e-commerce moderne avec panier et paiement sécurisé",
     longDescription:
       "Application e-commerce complète avec gestion des produits, panier d'achat, système de paiement intégré et dashboard administrateur.",
-    image: "CrossGuild.png",
+    image: "/CrossGuild.png",
     tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    github: "https://github.com/yourusername/project-1",
-    demo: "https://project-1-demo.vercel.app",
+    github: "https://github.com/KezroXV/CrossGuild",
+    demo: "https://crossguild.vercel.app/",
     featured: true,
   },
   {
@@ -34,10 +34,9 @@ export const projects: Project[] = [
       "Dashboard interactif avec visualisation de données en temps réel",
     longDescription:
       "Interface de visualisation de données avec graphiques interactifs, filtres avancés et export de rapports.",
-    image: "/projects/project-2.jpg",
+    image: "/AaKits.png",
     tags: ["React", "D3.js", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/project-2",
-    demo: "https://project-2-demo.vercel.app",
+    demo: "https://shopxfoot.myshopify.com/?pb=0",
     featured: true,
   },
   {
@@ -47,9 +46,9 @@ export const projects: Project[] = [
     description: "App mobile cross-platform pour la gestion de tâches",
     longDescription:
       "Application de productivité avec synchronisation cloud, notifications push et mode hors ligne.",
-    image: "/projects/project-3.jpg",
+    image: "/CollectiveClub.png",
     tags: ["React Native", "Firebase", "Redux"],
-    github: "https://github.com/yourusername/project-3",
+    demo: "https://collective-club-web.vercel.app/",
     featured: false,
   },
   {
@@ -59,9 +58,9 @@ export const projects: Project[] = [
     description: "API RESTful robuste avec authentification JWT",
     longDescription:
       "Backend complet avec authentification, autorisation, validation des données et documentation Swagger.",
-    image: "/projects/project-4.jpg",
+    image: "/Sati.png",
     tags: ["Express", "MongoDB", "JWT", "Swagger"],
-    github: "https://github.com/yourusername/project-4",
+    demo: "https://sati-mauve.vercel.app/fr",
     featured: false,
   },
 ];
