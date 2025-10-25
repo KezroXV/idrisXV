@@ -16,10 +16,11 @@ export const projects: Project[] = [
     id: 1,
     title: "CrossGuild",
     category: "Plateforme E-commerce",
-    description: "Une plateforme e-commerce moderne avec panier et paiement sécurisé",
+    description:
+      "Une plateforme e-commerce moderne avec panier et paiement sécurisé",
     longDescription:
       "Application e-commerce complète avec gestion des produits, panier d'achat, système de paiement intégré et dashboard administrateur.",
-    image: "/projects/project-1.jpg",
+    image: "CrossGuild.png",
     tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
     github: "https://github.com/yourusername/project-1",
     demo: "https://project-1-demo.vercel.app",
@@ -29,7 +30,8 @@ export const projects: Project[] = [
     id: 2,
     title: "DataFlow Analytics",
     category: "Dashboard Analytics",
-    description: "Dashboard interactif avec visualisation de données en temps réel",
+    description:
+      "Dashboard interactif avec visualisation de données en temps réel",
     longDescription:
       "Interface de visualisation de données avec graphiques interactifs, filtres avancés et export de rapports.",
     image: "/projects/project-2.jpg",

@@ -59,49 +59,51 @@
     "1": {
       "title": "CrossGuild",
       "category": "E-commerce Platform",
-      "description": "Modern e-commerce platform with cart and secure payment",
-      "longDescription": "Complete e-commerce application with product management, shopping cart, integrated payment system and admin dashboard.",
+      "description": "Modern e-commerce platform with cart and admin dashboard",
+      "longDescription": "Complete e-commerce application with product management, shopping cart, integrated payment system, customization and admin dashboard.",
       "features": [
         "Modern and responsive user interface",
-        "Secure payment system with Stripe",
-        "Complete product and inventory management",
-        "Advanced admin dashboard"
+        "SEO-friendly and optimized performance",
+        "Complete product and inventory management with stock management",
+        "Advanced admin dashboard with user management, order management, product management, inventory management, etc."
       ]
     },
     "2": {
-      "title": "DataFlow Analytics",
-      "category": "Analytics Dashboard",
-      "description": "Interactive dashboard with real-time data visualization",
-      "longDescription": "Data visualization interface with interactive charts, advanced filters and report export.",
+      "title": "AaKits",
+      "category": "E-commerce Shopify platform",
+      "description": "Modern football jersey e-commerce platform with custom interface",
+      "longDescription": "Modern football jersey e-commerce platform with custom interface with +10K products available in stock.",
       "features": [
-        "Real-time interactive charts",
-        "Advanced and customizable filters",
-        "Report export in PDF and Excel",
-        "Customizable dashboards"
+        "Complete Shopify theme customization",
+        "Fluid and intuitive user experience",
+        "+10K different products available in stock",
+        "Complete product and inventory management with stock management"
       ]
     },
     "3": {
-      "title": "TaskMaster Pro",
-      "category": "Mobile Application",
-      "description": "Cross-platform mobile app for task management",
+      "title": "Collective Club",
+      "category": "Shopify Application",
+      "description": "Discussion forum and exchanges for the users of a Shopify e-commerce store",
       "longDescription": "Productivity application with cloud synchronization, push notifications and offline mode.",
       "features": [
-        "Real-time cloud synchronization",
-        "Smart push notifications",
-        "Complete offline mode",
-        "Intuitive and performant interface"
+        "Shopify Oauth and API & Google Oauth",
+        "Modern and responsive interface",
+        "Complete admin dashboard with user management, order management, product management, inventory management, etc.",
+        "Complete user management, post management, comment management, like management, role management, permission management, etc."
       ]
     },
     "4": {
-      "title": "SecureAPI",
-      "category": "REST API",
-      "description": "Robust RESTful API with JWT authentication",
-      "longDescription": "Complete backend with authentication, authorization, data validation and Swagger documentation.",
+      "title": "Sati",
+      "category": "Transport and Logistics Platform",
+      "description": "Complete transport and logistics solution for professionals",
+      "longDescription": "Complete transport and logistics solution for professionals with real-time tracking, route optimization and complete analytics dashboard.",
       "features": [
-        "Secure JWT authentication",
-        "Complete Swagger documentation",
-        "Robust data validation",
-        "Scalable and maintainable architecture"
+        "Modern and responsive interface",
+        "Real-time tracking with geolocation",
+        "Complete fleet and driver management",
+        "Analytics dashboard with reports and insights",
+        "Multi-language support with i18n",
+        "Automatic route optimization and scheduling"
       ]
     }
   }

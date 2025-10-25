@@ -63,45 +63,47 @@
       "longDescription": "Application e-commerce complète avec gestion des produits, panier d'achat, système de paiement intégré et dashboard administrateur.",
       "features": [
         "Interface utilisateur moderne et responsive",
-        "Système de paiement sécurisé avec Stripe",
-        "Gestion complète des produits et du stock",
-        "Dashboard administrateur avancé"
+        "Performance optimisée et SEO-friendly",
+        "Gestion complète des produits et du stock avec gestion du stock",
+        "Dashboard administrateur avancé avec gestion des utilisateurs, des commandes, des produits, du stock, etc."
       ]
     },
     "2": {
-      "title": "DataFlow Analytics",
-      "category": "Dashboard Analytics",
-      "description": "Dashboard interactif avec visualisation de données en temps réel",
-      "longDescription": "Interface de visualisation de données avec graphiques interactifs, filtres avancés et export de rapports.",
+      "title": "AaKits",
+      "category": "Boutique e-commerce Shopify",
+      "description": "Une plateforme Shopify de maillot de football moderne avec Customisation de l'interface",
+      "longDescription": "Une plateforme Shopify de maillot de football moderne avec Customisation de l'interface.",
       "features": [
-        "Graphiques interactifs en temps réel",
-        "Filtres avancés et personnalisables",
-        "Export de rapports en PDF et Excel",
-        "Tableaux de bord personnalisables"
+        "Customisation complète du theme Shopify",
+        "Expérience utilisateur fluide et intuitive",
+        "+10K produits différents disponibles en stock",
+        "Gestion complète des produits et du stock avec gestion du stock"
       ]
     },
     "3": {
-      "title": "TaskMaster Pro",
-      "category": "Application Mobile",
-      "description": "App mobile cross-platform pour la gestion de tâches",
-      "longDescription": "Application de productivité avec synchronisation cloud, notifications push et mode hors ligne.",
+      "title": "Collective Club",
+      "category": "Application Shopify",
+      "description": "Forum de discussion et echanges pour les utilisateurs d'une boutique e-commerce Shopify",
+      "longDescription": "Forum de discussion et echanges pour les utilisateurs d'une boutique e-commerce Shopify.",
       "features": [
-        "Synchronisation cloud en temps réel",
-        "Notifications push intelligentes",
-        "Mode hors ligne complet",
-        "Interface intuitive et performante"
+        "Shopify Oauth et API + Google Oauth",
+        "Interface moderne et responsive",
+        "Dashboard administrateur complet et user friendly",
+        "Gestion des utilisateurs, des posts, des commentaires, des likes, des roles, des permissions, des paramètres, etc."
       ]
     },
     "4": {
-      "title": "SecureAPI",
-      "category": "API REST",
-      "description": "API RESTful robuste avec authentification JWT",
-      "longDescription": "Backend complet avec authentification, autorisation, validation des données et documentation Swagger.",
+      "title": "Sati",
+      "category": "Plateforme de Transport et Logistique",
+      "description": "Solution complète de gestion de transport et logistique pour professionnels",
+      "longDescription": "Plateforme digitale tout-en-un pour la gestion des opérations de transport et logistique, avec suivi en temps réel, optimisation des itinéraires et tableau de bord analytique complet.",
       "features": [
-        "Authentification JWT sécurisée",
-        "Documentation Swagger complète",
-        "Validation des données robuste",
-        "Architecture scalable et maintenable"
+        "Interface utilisateur moderne et responsive",
+        "Suivi des livraisons en temps réel avec géolocalisation",
+        "Gestion complète de la flotte et des conducteurs",
+        "Tableau de bord administrateur avec analytics et rapports",
+        "Support multilingue avec i18n",
+        "Optimisation automatique des itinéraires et planification"
       ]
     }
   }
