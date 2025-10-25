@@ -8,8 +8,6 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["@/components"],
   },
-  // Optimize font loading
-  optimizeFonts: true,
 };
 
 export default withNextIntl(nextConfig);

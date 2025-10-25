@@ -40,7 +40,11 @@ export function Skills() {
                       key={skill.name}
                       className="flex flex-col items-center justify-center p-4 rounded-lg bg-secondary/50 hover:bg-primary/10 hover:scale-105 transition-all duration-300 cursor-pointer"
                     >
-                      <span className="text-3xl mb-2">{skill.icon}</span>
+                      <img
+                        src={skill.logo}
+                        alt={skill.name}
+                        className="h-8 w-8 mb-2 object-contain"
+                      />
                       <span className="text-sm font-medium text-foreground text-center">
                         {skill.name}
                       </span>
