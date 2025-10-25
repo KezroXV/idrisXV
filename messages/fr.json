@@ -38,7 +38,9 @@
       "title": "Informations",
       "email": "Email",
       "location": "Localisation",
-      "availability": "Disponibilité"
+      "availability": "Disponibilité",
+      "freelance": "Disponible pour projets freelance",
+      "response": "Réponse sous 24-48h"
     },
     "form": {
       "title": "Envoyez un message",

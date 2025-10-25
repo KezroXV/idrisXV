@@ -16,7 +16,7 @@ export function SkillsTerminal() {
   const darkLogos = ["GitHub", "Next.js", "Prisma", "Better Auth"];
 
   return (
-    <section className="py-16 md:py-20 px-6 md:px-12 border-t border-foreground">
+    <section className="py-12 md:py-16 px-6 md:px-12 border-t border-b border-foreground">
       <div className="max-w-5xl mx-auto">
         {/* Section title */}
         <div className="mb-8">

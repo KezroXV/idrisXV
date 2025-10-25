@@ -1,10 +1,11 @@
 "use client";
 
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
-import {useTranslations} from 'next-intl';
+import { Github, Mail, ArrowDown } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { XLogo } from "../ui/x-logo";
 
 export function HeroTerminal() {
-  const t = useTranslations('hero');
+  const t = useTranslations("hero");
 
   const scrollToProjects = () => {
     const projectsSection = document.querySelector("#projects");
@@ -16,32 +17,32 @@ export function HeroTerminal() {
       <div className="w-full max-w-4xl space-y-12">
         {/* Greeting */}
         <div className="space-y-2">
-          <p className="text-sm text-muted-foreground">{t('greeting')}</p>
+          <p className="text-sm text-muted-foreground">{t("greeting")}</p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            {t('name')}
+            {t("name")}
           </h1>
         </div>
 
         {/* Role */}
         <div className="space-y-4">
-          <h2 className="text-2xl md:text-4xl font-medium">
-            {t('role')}
-          </h2>
+          <h2 className="text-2xl md:text-4xl font-medium">{t("role")}</h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            {t('description')}
+            {t("description")}
           </p>
         </div>
 
         {/* Stack */}
         <div className="flex flex-wrap gap-3">
-          {["React", "Next.js", "TypeScript", "Node.js", "Tailwind"].map((tech) => (
-            <span
-              key={tech}
-              className="px-4 py-2 border border-foreground hover:bg-foreground hover:text-background transition-colors text-sm"
-            >
-              {tech}
-            </span>
-          ))}
+          {["React", "Next.js", "TypeScript", "Node.js", "Tailwind"].map(
+            (tech) => (
+              <span
+                key={tech}
+                className="px-4 py-2 border border-foreground hover:bg-foreground hover:text-background transition-colors text-sm"
+              >
+                {tech}
+              </span>
+            )
+          )}
         </div>
 
         {/* CTA */}
@@ -50,20 +51,20 @@ export function HeroTerminal() {
             onClick={scrollToProjects}
             className="px-6 py-3 bg-foreground text-background hover:opacity-80 transition-opacity font-medium"
           >
-            {t('cta.projects')}
+            {t("cta.projects")}
           </button>
           <a
             href="#contact"
             className="px-6 py-3 border border-foreground hover:bg-foreground hover:text-background transition-colors font-medium"
           >
-            {t('cta.contact')}
+            {t("cta.contact")}
           </a>
         </div>
 
         {/* Social */}
         <div className="flex gap-6 pt-8">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/KezroXV"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-60 transition-opacity"
@@ -72,16 +73,16 @@ export function HeroTerminal() {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://x.com/IdrisdevX"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-60 transition-opacity"
-            aria-label="LinkedIn"
+            aria-label="Twitter/X"
           >
-            <Linkedin className="h-6 w-6" />
+            <XLogo className="h-6 w-6" />
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:idrisbenabdallah28@gmail.com"
             className="hover:opacity-60 transition-opacity"
             aria-label="Email"
           >

@@ -20,7 +20,7 @@ export function ProjectsTerminal() {
 
   return (
     <>
-      <section id="projects" className="py-20 md:py-32 px-6 md:px-12">
+      <section id="projects" className="py-12 md:py-16 px-6 md:px-12">
         <div className="max-w-6xl mx-auto">
           {/* Section title */}
           <div className="mb-16">
