@@ -33,7 +33,7 @@ export function HeroTerminal() {
 
         {/* Stack */}
         <div className="flex flex-wrap gap-3">
-          {["React", "Next.js", "TypeScript", "Node.js", "Tailwind"].map(
+          {["React", "Next.js", "Shopify", "TypeScript", "Node.js"].map(
             (tech) => (
               <span
                 key={tech}

@@ -14,8 +14,8 @@ export function ThemeToggle() {
 
   if (!mounted) {
     return (
-      <div className="fixed top-6 right-6 z-50 p-3 rounded-full bg-card border border-border">
-        <div className="h-5 w-5" />
+      <div className="fixed top-6 right-6 z-50 border border-foreground bg-background px-3 py-2 text-xs font-medium">
+        <div className="h-4 w-4" />
       </div>
     );
   }
@@ -23,13 +23,13 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="fixed top-6 right-6 z-50 p-3 rounded-full bg-card border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-110"
+      className="fixed top-6 right-6 z-50 border border-foreground bg-background px-3 py-2 hover:bg-foreground hover:text-background transition-colors text-xs font-medium"
       aria-label="Toggle theme"
     >
       {theme === "dark" ? (
-        <Sun className="h-5 w-5 text-primary" />
+        <Sun className="h-4 w-4" />
       ) : (
-        <Moon className="h-5 w-5 text-primary" />
+        <Moon className="h-4 w-4" />
       )}
     </button>
   );

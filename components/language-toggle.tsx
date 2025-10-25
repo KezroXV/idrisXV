@@ -1,8 +1,8 @@
 "use client";
 
-import {useLocale} from 'next-intl';
-import {useRouter, usePathname} from '@/i18n/routing';
-import {useEffect, useRef} from 'react';
+import { useLocale } from "next-intl";
+import { useRouter, usePathname } from "@/i18n/routing";
+import { useEffect, useRef } from "react";
 
 export function LanguageToggle() {
   const locale = useLocale();
@@ -14,8 +14,8 @@ export function LanguageToggle() {
     // Save current scroll position
     scrollPositionRef.current = window.scrollY;
 
-    const nextLocale = locale === 'en' ? 'fr' : 'en';
-    router.replace(pathname, {locale: nextLocale});
+    const nextLocale = locale === "en" ? "fr" : "en";
+    router.replace(pathname, { locale: nextLocale });
   };
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export function LanguageToggle() {
       className="fixed top-6 right-20 z-50 border border-foreground bg-background px-3 py-2 hover:bg-foreground hover:text-background transition-colors text-xs font-medium"
       aria-label="Toggle language"
     >
-      {locale === "en" ? "FR" : "EN"}
+      {locale === "en" ? "EN" : "FR"}
     </button>
   );
 }
