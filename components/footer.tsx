@@ -1,17 +1,36 @@
+"use client";
+
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "@/hooks/use-theme";
+import { useEffect, useState } from "react";
+
 export function Footer() {
+  const { theme, toggleTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+
   return (
-    <footer className="py-8 border-t border-border bg-card/50">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-muted-foreground text-sm">
-            &copy; {new Date().getFullYear()} Votre Nom. Tous droits réservés.
-          </p>
-          <p className="text-muted-foreground text-sm">
-            Fait avec <span className="text-primary">♥</span> en utilisant{" "}
-            <span className="text-primary font-semibold">Next.js</span> &{" "}
-            <span className="text-primary font-semibold">Tailwind CSS</span>
-          </p>
-        </div>
+    <footer className="max-w-3xl mx-auto px-6 py-16">
+      <div className="flex justify-between items-center text-sm text-gray-500 dark:text-gray-500">
+        <p>&copy; {new Date().getFullYear()} IdrisXV.</p>
+
+        {mounted && (
+          <button
+            onClick={toggleTheme}
+            className="hover:text-black dark:hover:text-white transition-colors"
+            aria-label="Toggle theme"
+          >
+            {theme === "dark" ? (
+              <Sun className="h-5 w-5" />
+            ) : (
+              <Moon className="h-5 w-5" />
+            )}
+          </button>
+        )}
       </div>
     </footer>
   );

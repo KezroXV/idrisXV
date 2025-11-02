@@ -73,8 +73,8 @@
     "2": {
       "title": "AaKits",
       "category": "Boutique e-commerce Shopify",
-      "description": "Une plateforme Shopify de maillot de football moderne avec Customisation de l'interface",
-      "longDescription": "Une plateforme Shopify de maillot de football moderne avec Customisation de l'interface.",
+      "description": "Plateforme Shopify de maillot de football moderne avec interface personnalisée",
+      "longDescription": "Plateforme Shopify de maillot de football moderne avec interface personnalisée avec +10K produits disponibles en stock.",
       "features": [
         "Customisation complète du theme Shopify",
         "Expérience utilisateur fluide et intuitive",
@@ -86,12 +86,12 @@
       "title": "Collective Club",
       "category": "Application Shopify",
       "description": "Forum de discussion et echanges pour les utilisateurs d'une boutique e-commerce Shopify",
-      "longDescription": "Forum de discussion et echanges pour les utilisateurs d'une boutique e-commerce Shopify.",
+      "longDescription": "Forum de discussion et echanges pour les utilisateurs d'une boutique e-commerce Shopify. Application de productivité avec synchronisation cloud, notifications push et mode hors ligne.",
       "features": [
         "Shopify Oauth et API + Google Oauth",
         "Interface moderne et responsive",
-        "Dashboard administrateur complet et user friendly",
-        "Gestion des utilisateurs, des posts, des commentaires, des likes, des roles, des permissions, des paramètres, etc."
+        "Dashboard administrateur complet avec gestion des utilisateurs, des commandes, des produits, du stock, etc.",
+        "Gestion complète des utilisateurs, des posts, des commentaires, des likes, des roles, des permissions, etc."
       ]
     },
     "4": {

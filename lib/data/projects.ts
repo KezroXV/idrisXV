@@ -16,10 +16,9 @@ export const projects: Project[] = [
     id: 1,
     title: "CrossGuild",
     category: "Plateforme E-commerce",
-    description:
-      "Une plateforme e-commerce moderne avec panier et paiement sécurisé",
+    description: "Modern e-commerce platform with cart and admin dashboard",
     longDescription:
-      "Application e-commerce complète avec gestion des produits, panier d'achat, système de paiement intégré et dashboard administrateur.",
+      "Complete e-commerce application with product management, shopping cart, integrated payment system, customization and admin dashboard.",
     image: "/CrossGuild.png",
     tags: [
       "Next.js",
@@ -35,12 +34,12 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "DataFlow Analytics",
-    category: "Dashboard Analytics",
+    title: "AaKits",
+    category: "E-commerce Shopify Platform",
     description:
-      "Dashboard interactif avec visualisation de données en temps réel",
+      "Modern football jersey e-commerce platform with custom interface",
     longDescription:
-      "Interface de visualisation de données avec graphiques interactifs, filtres avancés et export de rapports.",
+      "Modern football jersey e-commerce platform with custom interface with +10K products available in stock.",
     image: "/AaKits.png",
     tags: ["Shopify", "Shopify Theme"],
     demo: "https://shopxfoot.myshopify.com/?pb=0",
@@ -48,11 +47,12 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "TaskMaster Pro",
-    category: "Application Mobile",
-    description: "App mobile cross-platform pour la gestion de tâches",
+    title: "Collective Club",
+    category: "Shopify Application",
+    description:
+      "Discussion forum and exchanges for the users of a Shopify e-commerce store",
     longDescription:
-      "Application de productivité avec synchronisation cloud, notifications push et mode hors ligne.",
+      "Productivity application with cloud synchronization, push notifications and offline mode. Complete discussion platform with Shopify Oauth and API & Google Oauth.",
     image: "/CollectiveClub.png",
     tags: [
       "Shopify",
@@ -68,14 +68,14 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "SecureAPI",
-    category: "API REST",
-    description: "API RESTful robuste avec authentification JWT",
+    title: "Sati",
+    category: "Transport and Logistics Platform",
+    description: "Complete transport and logistics solution for professionals",
     longDescription:
-      "Backend complet avec authentification, autorisation, validation des données et documentation Swagger.",
+      "Complete transport and logistics solution for professionals with real-time tracking, route optimization and complete analytics dashboard.",
     image: "/Sati.png",
     tags: [
-      "Nextjs",
+      "Next.js",
       "i18n",
       "TypeScript",
       "React",
