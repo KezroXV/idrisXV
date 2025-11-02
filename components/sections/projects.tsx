@@ -43,7 +43,7 @@ const projectsData = [
     id: 3,
     title: "Collective Club",
     subtitle:
-      "Discussion forum and exchanges for the users of a Shopify e-commerce store",
+      "Shopify App discussion forum and exchanges for the users of a Shopify e-commerce store",
     description:
       "Community platform with Shopify and Google OAuth integration, featuring posts, comments, likes, and role-based permissions.",
     results:

@@ -50,7 +50,7 @@ export const projects: Project[] = [
     title: "Collective Club",
     category: "Shopify Application",
     description:
-      "Discussion forum and exchanges for the users of a Shopify e-commerce store",
+      "Shopify App discussion forum and exchanges for the users of a Shopify e-commerce store",
     longDescription:
       "Productivity application with cloud synchronization, push notifications and offline mode. Complete discussion platform with Shopify Oauth and API & Google Oauth.",
     image: "/CollectiveClub.png",
