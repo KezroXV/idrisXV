@@ -14,6 +14,11 @@
       "contact": "Me Contacter"
     }
   },
+  "booking": {
+    "button": "Réserver un appel",
+    "title": "Planifier un appel",
+    "description": "Choisissez un créneau qui vous convient. Je vous enverrai un email de confirmation avec tous les détails."
+  },
   "skills": {
     "title": "Stack Technique",
     "subtitle": "Technologies et outils que j'utilise au quotidien"

@@ -1,6 +1,7 @@
 "use client";
 
-import { Github, Twitter, Mail, Calendar } from "lucide-react";
+import { Github, Twitter, Mail } from "lucide-react";
+import { BookingModal } from "@/components/booking-modal";
 
 export function Hero() {
   return (
@@ -48,15 +49,7 @@ export function Hero() {
 
         {/* CTA */}
         <div className="flex flex-wrap gap-4 pt-4">
-          <a
-            href="https://cal.com/idris-dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-black dark:bg-white text-white dark:text-black hover:opacity-80 transition-opacity"
-          >
-            <Calendar className="h-4 w-4" />
-            Book a call
-          </a>
+          <BookingModal />
           <a
             href="#projects"
             className="inline-flex items-center px-6 py-3 border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors"

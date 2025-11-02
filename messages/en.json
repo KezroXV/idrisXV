@@ -14,6 +14,11 @@
       "contact": "Get in Touch"
     }
   },
+  "booking": {
+    "button": "Book a call",
+    "title": "Schedule a call",
+    "description": "Choose a time that works best for you. I'll send you a confirmation email with all the details."
+  },
   "skills": {
     "title": "Tech Stack",
     "subtitle": "Technologies and tools I use on a daily basis"
