@@ -14,6 +14,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
+  title: "idris • Dev",
   icons: {
     icon: [
       { url: "/icon.png", sizes: "512x512", type: "image/png" },
