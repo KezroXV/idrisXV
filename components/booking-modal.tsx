@@ -18,7 +18,7 @@ export function BookingModal() {
 
   // Cal.com theme parameter: light or dark
   const calTheme = theme === "dark" ? "dark" : "light";
-  const calUrl = `https://cal.com/idrisxv?theme=${calTheme}`;
+  const calUrl = `https://cal.com/idrisxv/1-hour-meeting?theme=${calTheme}`;
 
   return (
     <Dialog>
