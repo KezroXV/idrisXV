@@ -27,7 +27,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "AaKits",
+    title: "AaKits I key : naymao",
     subtitle:
       "Modern football jersey e-commerce platform with custom interface",
     description:
