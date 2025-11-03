@@ -17,14 +17,9 @@ export function Hero() {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-          <i>21y/o computer science graduate</i>
-          <br />
-          <br />
-          <i>
-            I build clear, fast, and intuitive web applications, with a focus on
-            SEO. Pursuing high-quality results and consistently improving the
-            user journey.
-          </i>
+          21y/o computer science graduate building clear, fast, and intuitive
+          web applications, with a focus on SEO. Pursuing high-quality results
+          and consistently improving the user journey.
         </p>
 
         {/* Tech Stack - Minimalist */}
