@@ -59,7 +59,7 @@ const projectsData = [
       "Tailwind CSS",
       "Shadcn UI",
     ],
-    demo: "https://collective-club-web.vercel.app/",
+    demo: "https://collective-club-web.vercel.app/?shop=collective-club.myshopify.com",
   },
   {
     id: 4,
