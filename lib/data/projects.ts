@@ -28,7 +28,6 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "Shadcn UI",
     ],
-    github: "https://github.com/KezroXV/CrossGuild",
     demo: "https://crossguild.vercel.app/",
     featured: true,
   },

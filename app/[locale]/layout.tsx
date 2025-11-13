@@ -3,7 +3,6 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Geist } from "next/font/google";
-import { ThemeWrapper } from "@/components/theme-wrapper";
 import { Metadata } from "next";
 import "./globals.css";
 
@@ -41,10 +40,10 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} className="light">
       <body className={`${geist.variable} font-sans antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          <ThemeWrapper>{children}</ThemeWrapper>
+          {children}
         </NextIntlClientProvider>
       </body>
     </html>
