@@ -135,17 +135,6 @@ export function Projects() {
 
             {/* Links */}
             <div className="flex gap-4 pt-2">
-              {project.github && (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm hover:opacity-60 transition-opacity"
-                >
-                  <Github className="h-4 w-4" />
-                  Code
-                </a>
-              )}
               {project.demo && (
                 <a
                   href={project.demo}
