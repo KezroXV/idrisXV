@@ -44,27 +44,27 @@ export const projects: Project[] = [
     demo: "https://shopxfoot.myshopify.com/?pb=0",
     featured: true,
   },
-  {
-    id: 3,
-    title: "Collective Club",
-    category: "Shopify Application",
-    description:
-      "Shopify App discussion forum and exchanges for the users of a Shopify e-commerce store",
-    longDescription:
-      "Productivity application with cloud synchronization, push notifications and offline mode. Complete discussion platform with Shopify Oauth and API & Google Oauth.",
-    image: "/CollectiveClub.png",
-    tags: [
-      "Shopify",
-      "Next.js",
-      "TypeScript",
-      "PostgreSQL",
-      "Prisma",
-      "Tailwind CSS",
-      "Shadcn UI",
-    ],
-    demo: "https://collective-club-web.vercel.app/?shop=collective-club.myshopify.com",
-    featured: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Collective Club",
+  //   category: "Shopify Application",
+  //   description:
+  //     "Shopify App discussion forum and exchanges for the users of a Shopify e-commerce store",
+  //   longDescription:
+  //     "Productivity application with cloud synchronization, push notifications and offline mode. Complete discussion platform with Shopify Oauth and API & Google Oauth.",
+  //   image: "/CollectiveClub.png",
+  //   tags: [
+  //     "Shopify",
+  //     "Next.js",
+  //     "TypeScript",
+  //     "PostgreSQL",
+  //     "Prisma",
+  //     "Tailwind CSS",
+  //     "Shadcn UI",
+  //   ],
+  //   demo: "https://collective-club-web.vercel.app/?shop=collective-club.myshopify.com",
+  //   featured: false,
+  // },
   {
     id: 4,
     title: "Sati",

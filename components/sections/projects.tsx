@@ -39,28 +39,28 @@ const projectsData = [
     tech: ["Shopify", "Shopify Theme"],
     demo: "https://shopxfoot.myshopify.com/?pb=0",
   },
-  {
-    id: 3,
-    title: "Collective Club",
-    subtitle:
-      "Shopify App discussion forum and exchanges for the users of a Shopify e-commerce store",
-    description:
-      "Community platform with Shopify and Google OAuth integration, featuring posts, comments, likes, and role-based permissions.",
-    results:
-      "Complete admin dashboard for content moderation. Users can create posts, interact through comments and likes, with granular permission management.",
-    process:
-      "Implemented dual authentication systems and built comprehensive content management features with real-time updates.",
-    tech: [
-      "Shopify",
-      "Next.js",
-      "TypeScript",
-      "PostgreSQL",
-      "Prisma",
-      "Tailwind CSS",
-      "Shadcn UI",
-    ],
-    demo: "https://collective-club-web.vercel.app/?shop=collective-club.myshopify.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "Collective Club",
+  //   subtitle:
+  //     "Shopify App discussion forum and exchanges for the users of a Shopify e-commerce store",
+  //   description:
+  //     "Community platform with Shopify and Google OAuth integration, featuring posts, comments, likes, and role-based permissions.",
+  //   results:
+  //     "Complete admin dashboard for content moderation. Users can create posts, interact through comments and likes, with granular permission management.",
+  //   process:
+  //     "Implemented dual authentication systems and built comprehensive content management features with real-time updates.",
+  //   tech: [
+  //     "Shopify",
+  //     "Next.js",
+  //     "TypeScript",
+  //     "PostgreSQL",
+  //     "Prisma",
+  //     "Tailwind CSS",
+  //     "Shadcn UI",
+  //   ],
+  //   demo: "https://collective-club-web.vercel.app/?shop=collective-club.myshopify.com",
+  // },
   {
     id: 4,
     title: "Sati",
